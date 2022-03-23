@@ -132,7 +132,6 @@ void maximize_window();
 
 char nickname[10]=" ";
 int pontos = 0;
-int pontuacao = 0;
 
 //============== MAIN ============//
 int main(){
@@ -248,7 +247,7 @@ int main(){
                 pontos = pontos +1;
                 speed = speed - 2;
                 atualiza_maca(cobra, quadro);
-                pontuacao = pontos;
+            
             }
         
             atualiza_cobra(cobra);
